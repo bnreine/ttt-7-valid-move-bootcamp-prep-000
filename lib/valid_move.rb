@@ -9,4 +9,7 @@ def position_taken? (board1,index1)
   
 end
 
+
+
+
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
