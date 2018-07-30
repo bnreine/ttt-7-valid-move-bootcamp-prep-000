@@ -7,10 +7,10 @@ def valid_move? (board,index)
   end
 end
 
-def position_taken? (board1,index1)
-  if ((board1[index1]==" ") || (board1[index1]=="") || (board1[index1]==nil))
+def position_taken? (board,index)
+  if ((board[index]==" ") || (board[index]=="") || (board[index]==nil))
     return FALSE
-  elsif ((board1[index1]=="O") || (board1[index1]=="X"))
+  elsif ((board[index]=="O") || (board[index]=="X"))
     return true
   end
 end
